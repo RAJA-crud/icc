@@ -60,7 +60,10 @@
     border-radius: 8px;
     cursor: pointer;
 }
-.panel_8_btnContainer .btn_blue{
+.panel_8_btnContainer >.btn_blue{
     color:white;
     background-color: #0F5AB6;
+}
+.panel_8_btnContainer >.btn_white{
+    color:black
 }
