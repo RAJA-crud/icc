@@ -17,10 +17,10 @@ code {
   padding: 0;box-sizing: border-box;
 }
 button {
-  background-color: rgb(37, 99, 235);
+  /* background-color: rgb(37, 99, 235); */
   font-weight: bold;
   color: white;
-  padding: 10px 16px;
+  /* padding: 10px 16px; */
   font-size: 1rem;
   border-radius: .5rem;
   transition: all .15s cubic-bezier(0.4,0,0.2,1);
@@ -28,7 +28,7 @@ button {
   cursor: pointer;
 }
 
-button:hover {
+/* button:hover {
   background-color: rgb(29,78,216);
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
@@ -38,29 +38,36 @@ button:active {
   top: 1px;
   right: 1px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-}
+} */
 .header-carosel {
   width: 100%;
   height: 100vh;
   background-color: aquamarine;
-  background-image: url('./assets/home.jpg');
+  background-image: url('./assets/images/image\ 16.png');
   background-size: cover;
   background-position: center;
   display: flex;
   justify-content: center;
   align-items: flex-end;
 }
+.headerButton{
+  background-color: rgba(255, 255, 255, 0.062);
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  font-weight: 300;
+}
 
 .header-text {
   width: 60%;
-  /* padding: 5% 0; */
+  padding-bottom: 10%;
   text-align: center;
   color: white;
 }
 
 .stats-detail {
   width: 100%;
-  height: 80vh;
+  height: 50vh;
 }
 
 .card-Section {
@@ -111,8 +118,9 @@ button:active {
 
 .callToAction {
   width: 100%;
-  height: 100vh;
-  background-color: aqua;
+  padding-top: 100px;
+  /* height: 100vh; */
+  /* background-color: aqua; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,9 +128,9 @@ button:active {
 }
 
 .imageOne {
-  width: 350px;
-  height: 350px;
-  background-color: blue;
+  width: 442px;
+  height: 296px;
+  background-image: url('./assets/images/image\ 40.png');
 }
 
 .Article {
@@ -137,7 +145,8 @@ button:active {
   width: 95%;
   height: 100%;
   border-radius: 10px;
-  background-color: blueviolet;
+  background-image: url('./assets//images/image\ 17.png');
+  background-size: cover;
   display: flex;
   align-items: center;
 }
