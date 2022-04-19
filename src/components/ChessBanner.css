@@ -1,0 +1,124 @@
+.container {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    display: flex;
+}
+
+.row-1 {
+    margin-left: 0%;
+    width: 50%;
+}
+
+.card-1 {
+
+    text-align: left;
+    margin-top: 70px;
+
+}
+
+.span {
+    margin-left: 3%;
+    margin-top: 10px;
+}
+
+.card-1 h2 {
+    margin-left: 5%;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    letter-spacing: -0.01em;
+    color: #55586A;
+
+}
+
+.content-card {
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.content-card .p-1 {
+    font-family: 'sanserif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #55586A;
+}
+
+.content-card .p-2 {
+    font-family: 'sanserif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.01em;
+    color: #55586A;
+}
+
+.row-2 {
+
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.membership-card {
+    position: absolute;
+    width: 172px;
+    height: 201.58px;
+    padding: 5px;
+    margin-left: 201px;
+    margin-top: 70px;
+    box-sizing: border-box;
+    z-index: 1;
+    border-radius: 1px;
+    background: #F5F5F5;
+    border-radius: 10px;
+
+}
+
+.membership-card h3 {
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.membership-card span{
+ padding: 5px;
+ font-family: 'Helvetica Neue';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+
+display: flex;
+align-items: center;
+}
+.M-card{
+background-color: rgb(205, 207, 208);
+height: 190px;
+border-radius: 10px;
+
+}
+.videos-card{
+    z-index: 2;
+    position: relative;
+    width: 172px;
+    height: 201.58px;
+    padding: 5px;
+    margin-left: 300px;
+    margin-top: 180px;
+    box-sizing: border-box;
+    z-index: 1;
+    border-radius: 1px;
+    background: #F5F5F5;
+    border-radius: 10px;
+}
